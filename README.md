@@ -31,6 +31,7 @@ This project builds upon the excellent work by [@drakerfire98](https://github.co
 - **GPU**: NVIDIA RTX 3090 (24GB VRAM)
 - **RAM**: 4GB (recommended), 8GB comfortable
 - **CUDA**: 12.9
+- **NVIDIA Driver**: 575.57.08
 - **OS**: Ubuntu 24.04 (tested) or similar Linux distro
 ---
 

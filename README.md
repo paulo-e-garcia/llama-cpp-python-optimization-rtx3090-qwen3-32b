@@ -1,6 +1,6 @@
 # 🚀 Llama-cpp-python RTX 3090 Optimization Script
 
-**Run Qwen3-32B at 96% GPU utilization with only 4GB RAM** — Hyper-optimized inference setup for maximum performance.
+**Run Qwen3-32B at 96% GPU utilization with only 6GB RAM** — Hyper-optimized inference setup for maximum performance.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.12.3+](https://img.shields.io/badge/python-3.12.3-blue.svg)](https://www.python.org/downloads/)
@@ -20,18 +20,21 @@ This project builds upon the excellent work by [@drakerfire98](https://github.co
 - **Speed**: 31-35 tokens/second (average)
 - **GPU Utilization**: 96%+ 
 - **Context Window**: 7,168 tokens (~5,300 words)
-- **System RAM Usage**: 4GB (yes, really!)
+- **System RAM Usage**: 6GB (yes, really!)
 - **VRAM Usage**: 24GB (fully optimized)
 - **Model**: hf.co/unsloth/Qwen3-32B-GGUF:Q5_K_M
+
+![GPU stats during inference](images/nvidia-smi_inference.png)
+![TOP stats during inference](images/top_inference.png)
+![Model performance after inference](images/perf_inference.png)
 
 ---
 
 ## 🛠️ Hardware Requirements
 
 - **GPU**: NVIDIA RTX 3090 (24GB VRAM)
-- **RAM**: 4GB (recommended), 8GB comfortable
+- **RAM**: 6GB (recommended), 8GB comfortable
 - **CUDA**: 12.9
-- **NVIDIA Driver**: 575.57.08
 - **OS**: Ubuntu 24.04 (tested) or similar Linux distro
 ---
 

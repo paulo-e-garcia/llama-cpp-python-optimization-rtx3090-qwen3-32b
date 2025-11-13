@@ -1,4 +1,4 @@
-# 🚀 Llama-cpp-python RTX 3090 Optimization Guide
+# 🚀 Llama-cpp-python RTX 3090 Optimization Script
 
 **Run Qwen3-32B at 96% GPU utilization with only 4GB RAM** — Hyper-optimized inference setup for maximum performance.
 
